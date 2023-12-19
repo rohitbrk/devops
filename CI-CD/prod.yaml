@@ -11,7 +11,7 @@ on:
       
 jobs:
 
-  Run-Tests:
+  RunTests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,9 +21,9 @@ jobs:
       - run: npm ci
       - run: npm run test
       
-  Prod-Deployment:
+  ProdDeployment:
     needs:
-      - Run-Tests
+      - RunTests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
