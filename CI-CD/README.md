@@ -16,3 +16,5 @@ Steps:
 - Create a file with ".yaml" extension. Here we are creating "prod.yaml".
 - Mention steps for Tests and Deployment. Use github secrets for injecting secret vars.
 - Once Tests are success, the build artifacts of the project are automatically deployed.
+
+<div>Similar approach can be follwed to setup a pipeline for any project and cloud provider.</div>
