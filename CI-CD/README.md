@@ -1,7 +1,6 @@
 # CI CD
 
-CI - Continuos Integration
-CD - Continuos Delivery/ Deployment
+CI - Continuos Integration, CD - Continuos Delivery/ Deployment
 
 <div>After the development, the steps test, build and deploy etc can be automated. </div>
 
