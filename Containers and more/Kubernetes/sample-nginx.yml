@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myDeployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: myApp
+  template:
+    metadata:
+      labels:
+        app: myApp
+    spec:
+      containers:
+        - name: ngincContainer
+          image: nginx
+          ports:
+            - containerPort: 80
