@@ -29,3 +29,5 @@ ES - Effective Solutions
    Orchestration of containers. Each service has a IP. Mainly we will have ingress, which decides to which service the req should go.
    Multiple services - will have their pods.
    K8s will take care of replacing broke pods.
+
+Video - https://www.youtube.com/watch?v=xj_GjnD4uyI
